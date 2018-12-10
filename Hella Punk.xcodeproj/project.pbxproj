@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212D7DCB20DCC0D5000AFB7E /* NewsFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D7DCA20DCC0D5000AFB7E /* NewsFullViewController.swift */; };
+		213003F820D5A63C009E3351 /* BandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213003F720D5A63C009E3351 /* BandTableViewCell.swift */; };
+		2183D58E218935F900673463 /* SQLite.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 2183D58C2189355500673463 /* SQLite.swift */; };
+		2183D590218D48E600673463 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183D58F218D48E600673463 /* DatabaseController.swift */; };
+		218B2940217D13E90025CF11 /* FullShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B293F217D13E90025CF11 /* FullShowViewController.swift */; };
+		21D84F5920D0C9A100212864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F5820D0C9A100212864 /* AppDelegate.swift */; };
+		21D84F5B20D0C9A100212864 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F5A20D0C9A100212864 /* FirstViewController.swift */; };
+		21D84F5D20D0C9A100212864 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F5C20D0C9A100212864 /* SecondViewController.swift */; };
+		21D84F6020D0C9A100212864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D84F5E20D0C9A100212864 /* Main.storyboard */; };
+		21D84F6220D0C9A100212864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D84F6120D0C9A100212864 /* Assets.xcassets */; };
+		21D84F6520D0C9A100212864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D84F6320D0C9A100212864 /* LaunchScreen.storyboard */; };
+		21D84F7020D0C9A100212864 /* Hella_PunkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F6F20D0C9A100212864 /* Hella_PunkTests.swift */; };
+		21D84F7B20D0C9A100212864 /* Hella_PunkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F7A20D0C9A100212864 /* Hella_PunkUITests.swift */; };
+		21D84F8920D0CB2B00212864 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D84F8820D0CB2B00212864 /* FeaturedViewController.swift */; };
+		21F6629E20D9FEFF005FA0D1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6629D20D9FEFF005FA0D1 /* MainTableViewCell.swift */; };
+		60E35FF4055E2AC30901E5E5 /* Pods_Hella_Punk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5D0C7F398A1CF512DF9D26 /* Pods_Hella_Punk.framework */; };
+		90D8787ADE6801FE897EDD48 /* Pods_Hella_PunkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DC6FC9A64E1E4D467B864 /* Pods_Hella_PunkUITests.framework */; };
+		EA9EB61F06B917C2D53FC775 /* Pods_Hella_PunkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F93A007641C25F908C6440F /* Pods_Hella_PunkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D84F6C20D0C9A100212864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D84F4D20D0C9A100212864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D84F5420D0C9A100212864;
+			remoteInfo = "Hella Punk";
+		};
+		21D84F7720D0C9A100212864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D84F4D20D0C9A100212864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D84F5420D0C9A100212864;
+			remoteInfo = "Hella Punk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212D7DCA20DCC0D5000AFB7E /* NewsFullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFullViewController.swift; sourceTree = "<group>"; };
+		213003F720D5A63C009E3351 /* BandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandTableViewCell.swift; sourceTree = "<group>"; };
+		2183D58C2189355500673463 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SQLite.swift; path = Carthage/Checkouts/SQLite.swift; sourceTree = "<group>"; };
+		2183D58F218D48E600673463 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		218B293F217D13E90025CF11 /* FullShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullShowViewController.swift; sourceTree = "<group>"; };
+		21D84F5520D0C9A100212864 /* Hella Punk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hella Punk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D84F5820D0C9A100212864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21D84F5A20D0C9A100212864 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		21D84F5C20D0C9A100212864 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		21D84F5F20D0C9A100212864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21D84F6120D0C9A100212864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21D84F6420D0C9A100212864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21D84F6620D0C9A100212864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D84F6B20D0C9A100212864 /* Hella PunkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hella PunkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D84F6F20D0C9A100212864 /* Hella_PunkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hella_PunkTests.swift; sourceTree = "<group>"; };
+		21D84F7120D0C9A100212864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D84F7620D0C9A100212864 /* Hella PunkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hella PunkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D84F7A20D0C9A100212864 /* Hella_PunkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hella_PunkUITests.swift; sourceTree = "<group>"; };
+		21D84F7C20D0C9A100212864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D84F8820D0CB2B00212864 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		21F6629D20D9FEFF005FA0D1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		4F93A007641C25F908C6440F /* Pods_Hella_PunkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hella_PunkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E36C64F938545C901DDD6BF /* Pods-Hella Punk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella Punk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hella Punk/Pods-Hella Punk.debug.xcconfig"; sourceTree = "<group>"; };
+		91F10657F0645206876BD43F /* Pods-Hella PunkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella PunkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hella PunkUITests/Pods-Hella PunkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95954C6D7FD291FF7B97A40D /* Pods-Hella Punk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella Punk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hella Punk/Pods-Hella Punk.release.xcconfig"; sourceTree = "<group>"; };
+		B2ECE3B53644725AC0AD8FC5 /* Pods-Hella PunkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella PunkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hella PunkTests/Pods-Hella PunkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7A4F777DC8DE84E9AA88FD /* Pods-Hella PunkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella PunkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hella PunkUITests/Pods-Hella PunkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C26DC6FC9A64E1E4D467B864 /* Pods_Hella_PunkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hella_PunkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5D0C7F398A1CF512DF9D26 /* Pods_Hella_Punk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hella_Punk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB42ECF3433E302720F94E9F /* Pods-Hella PunkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hella PunkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hella PunkTests/Pods-Hella PunkTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D84F5220D0C9A100212864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2183D58E218935F900673463 /* SQLite.swift in Frameworks */,
+				60E35FF4055E2AC30901E5E5 /* Pods_Hella_Punk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F6820D0C9A100212864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB61F06B917C2D53FC775 /* Pods_Hella_PunkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F7320D0C9A100212864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D8787ADE6801FE897EDD48 /* Pods_Hella_PunkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D84F4C20D0C9A100212864 = {
+			isa = PBXGroup;
+			children = (
+				21D84F5720D0C9A100212864 /* Hella Punk */,
+				21D84F6E20D0C9A100212864 /* Hella PunkTests */,
+				21D84F7920D0C9A100212864 /* Hella PunkUITests */,
+				21D84F5620D0C9A100212864 /* Products */,
+				E4829B8BF31C5776881EA91F /* Pods */,
+				F9C565CAE97B2C2D6122B204 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21D84F5620D0C9A100212864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D84F5520D0C9A100212864 /* Hella Punk.app */,
+				21D84F6B20D0C9A100212864 /* Hella PunkTests.xctest */,
+				21D84F7620D0C9A100212864 /* Hella PunkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D84F5720D0C9A100212864 /* Hella Punk */ = {
+			isa = PBXGroup;
+			children = (
+				218B293F217D13E90025CF11 /* FullShowViewController.swift */,
+				212D7DCA20DCC0D5000AFB7E /* NewsFullViewController.swift */,
+				21F6629D20D9FEFF005FA0D1 /* MainTableViewCell.swift */,
+				21D84F5820D0C9A100212864 /* AppDelegate.swift */,
+				21D84F5A20D0C9A100212864 /* FirstViewController.swift */,
+				21D84F5C20D0C9A100212864 /* SecondViewController.swift */,
+				21D84F5E20D0C9A100212864 /* Main.storyboard */,
+				213003F720D5A63C009E3351 /* BandTableViewCell.swift */,
+				21D84F8820D0CB2B00212864 /* FeaturedViewController.swift */,
+				21D84F6120D0C9A100212864 /* Assets.xcassets */,
+				21D84F6320D0C9A100212864 /* LaunchScreen.storyboard */,
+				21D84F6620D0C9A100212864 /* Info.plist */,
+				2183D58F218D48E600673463 /* DatabaseController.swift */,
+			);
+			path = "Hella Punk";
+			sourceTree = "<group>";
+		};
+		21D84F6E20D0C9A100212864 /* Hella PunkTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D84F6F20D0C9A100212864 /* Hella_PunkTests.swift */,
+				21D84F7120D0C9A100212864 /* Info.plist */,
+			);
+			path = "Hella PunkTests";
+			sourceTree = "<group>";
+		};
+		21D84F7920D0C9A100212864 /* Hella PunkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21D84F7A20D0C9A100212864 /* Hella_PunkUITests.swift */,
+				21D84F7C20D0C9A100212864 /* Info.plist */,
+			);
+			path = "Hella PunkUITests";
+			sourceTree = "<group>";
+		};
+		E4829B8BF31C5776881EA91F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E36C64F938545C901DDD6BF /* Pods-Hella Punk.debug.xcconfig */,
+				95954C6D7FD291FF7B97A40D /* Pods-Hella Punk.release.xcconfig */,
+				B2ECE3B53644725AC0AD8FC5 /* Pods-Hella PunkTests.debug.xcconfig */,
+				FB42ECF3433E302720F94E9F /* Pods-Hella PunkTests.release.xcconfig */,
+				BF7A4F777DC8DE84E9AA88FD /* Pods-Hella PunkUITests.debug.xcconfig */,
+				91F10657F0645206876BD43F /* Pods-Hella PunkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9C565CAE97B2C2D6122B204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2183D58C2189355500673463 /* SQLite.swift */,
+				DC5D0C7F398A1CF512DF9D26 /* Pods_Hella_Punk.framework */,
+				4F93A007641C25F908C6440F /* Pods_Hella_PunkTests.framework */,
+				C26DC6FC9A64E1E4D467B864 /* Pods_Hella_PunkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D84F5420D0C9A100212864 /* Hella Punk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D84F7F20D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella Punk" */;
+			buildPhases = (
+				CC918784EBB3863D62C30DC2 /* [CP] Check Pods Manifest.lock */,
+				21D84F5120D0C9A100212864 /* Sources */,
+				21D84F5220D0C9A100212864 /* Frameworks */,
+				21D84F5320D0C9A100212864 /* Resources */,
+				CD5A4D943A7DB2C2ED2E36C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hella Punk";
+			productName = "Hella Punk";
+			productReference = 21D84F5520D0C9A100212864 /* Hella Punk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D84F6A20D0C9A100212864 /* Hella PunkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D84F8220D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella PunkTests" */;
+			buildPhases = (
+				26E9EFC16753675C0ABCCC17 /* [CP] Check Pods Manifest.lock */,
+				21D84F6720D0C9A100212864 /* Sources */,
+				21D84F6820D0C9A100212864 /* Frameworks */,
+				21D84F6920D0C9A100212864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D84F6D20D0C9A100212864 /* PBXTargetDependency */,
+			);
+			name = "Hella PunkTests";
+			productName = "Hella PunkTests";
+			productReference = 21D84F6B20D0C9A100212864 /* Hella PunkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21D84F7520D0C9A100212864 /* Hella PunkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D84F8520D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella PunkUITests" */;
+			buildPhases = (
+				C2F0B228E5357C0E8D3954DE /* [CP] Check Pods Manifest.lock */,
+				21D84F7220D0C9A100212864 /* Sources */,
+				21D84F7320D0C9A100212864 /* Frameworks */,
+				21D84F7420D0C9A100212864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D84F7820D0C9A100212864 /* PBXTargetDependency */,
+			);
+			name = "Hella PunkUITests";
+			productName = "Hella PunkUITests";
+			productReference = 21D84F7620D0C9A100212864 /* Hella PunkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D84F4D20D0C9A100212864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = adapt2;
+				TargetAttributes = {
+					21D84F5420D0C9A100212864 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					21D84F6A20D0C9A100212864 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+						TestTargetID = 21D84F5420D0C9A100212864;
+					};
+					21D84F7520D0C9A100212864 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+						TestTargetID = 21D84F5420D0C9A100212864;
+					};
+				};
+			};
+			buildConfigurationList = 21D84F5020D0C9A100212864 /* Build configuration list for PBXProject "Hella Punk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D84F4C20D0C9A100212864;
+			productRefGroup = 21D84F5620D0C9A100212864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D84F5420D0C9A100212864 /* Hella Punk */,
+				21D84F6A20D0C9A100212864 /* Hella PunkTests */,
+				21D84F7520D0C9A100212864 /* Hella PunkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D84F5320D0C9A100212864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D84F6520D0C9A100212864 /* LaunchScreen.storyboard in Resources */,
+				21D84F6220D0C9A100212864 /* Assets.xcassets in Resources */,
+				21D84F6020D0C9A100212864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F6920D0C9A100212864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F7420D0C9A100212864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E9EFC16753675C0ABCCC17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hella PunkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F0B228E5357C0E8D3954DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hella PunkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC918784EBB3863D62C30DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hella Punk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5A4D943A7DB2C2ED2E36C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hella Punk/Pods-Hella Punk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hella Punk/Pods-Hella Punk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D84F5120D0C9A100212864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212D7DCB20DCC0D5000AFB7E /* NewsFullViewController.swift in Sources */,
+				213003F820D5A63C009E3351 /* BandTableViewCell.swift in Sources */,
+				218B2940217D13E90025CF11 /* FullShowViewController.swift in Sources */,
+				21D84F5D20D0C9A100212864 /* SecondViewController.swift in Sources */,
+				21D84F5920D0C9A100212864 /* AppDelegate.swift in Sources */,
+				2183D590218D48E600673463 /* DatabaseController.swift in Sources */,
+				21D84F8920D0CB2B00212864 /* FeaturedViewController.swift in Sources */,
+				21F6629E20D9FEFF005FA0D1 /* MainTableViewCell.swift in Sources */,
+				21D84F5B20D0C9A100212864 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F6720D0C9A100212864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D84F7020D0C9A100212864 /* Hella_PunkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D84F7220D0C9A100212864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D84F7B20D0C9A100212864 /* Hella_PunkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D84F6D20D0C9A100212864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D84F5420D0C9A100212864 /* Hella Punk */;
+			targetProxy = 21D84F6C20D0C9A100212864 /* PBXContainerItemProxy */;
+		};
+		21D84F7820D0C9A100212864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D84F5420D0C9A100212864 /* Hella Punk */;
+			targetProxy = 21D84F7720D0C9A100212864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D84F5E20D0C9A100212864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D84F5F20D0C9A100212864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21D84F6320D0C9A100212864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D84F6420D0C9A100212864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D84F7D20D0C9A100212864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21D84F7E20D0C9A100212864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D84F8020D0C9A100212864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E36C64F938545C901DDD6BF /* Pods-Hella Punk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP74T9Z895;
+				INFOPLIST_FILE = "Hella Punk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-Punk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21D84F8120D0C9A100212864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95954C6D7FD291FF7B97A40D /* Pods-Hella Punk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP74T9Z895;
+				INFOPLIST_FILE = "Hella Punk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-Punk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21D84F8320D0C9A100212864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2ECE3B53644725AC0AD8FC5 /* Pods-Hella PunkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP74T9Z895;
+				INFOPLIST_FILE = "Hella PunkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-PunkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hella Punk.app/Hella Punk";
+			};
+			name = Debug;
+		};
+		21D84F8420D0C9A100212864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB42ECF3433E302720F94E9F /* Pods-Hella PunkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP74T9Z895;
+				INFOPLIST_FILE = "Hella PunkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-PunkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hella Punk.app/Hella Punk";
+			};
+			name = Release;
+		};
+		21D84F8620D0C9A100212864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7A4F777DC8DE84E9AA88FD /* Pods-Hella PunkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hella PunkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-PunkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hella Punk";
+			};
+			name = Debug;
+		};
+		21D84F8720D0C9A100212864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F10657F0645206876BD43F /* Pods-Hella PunkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hella PunkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adapt2.Hella-PunkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hella Punk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D84F5020D0C9A100212864 /* Build configuration list for PBXProject "Hella Punk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D84F7D20D0C9A100212864 /* Debug */,
+				21D84F7E20D0C9A100212864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D84F7F20D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella Punk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D84F8020D0C9A100212864 /* Debug */,
+				21D84F8120D0C9A100212864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D84F8220D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella PunkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D84F8320D0C9A100212864 /* Debug */,
+				21D84F8420D0C9A100212864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D84F8520D0C9A100212864 /* Build configuration list for PBXNativeTarget "Hella PunkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D84F8620D0C9A100212864 /* Debug */,
+				21D84F8720D0C9A100212864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D84F4D20D0C9A100212864 /* Project object */;
+}

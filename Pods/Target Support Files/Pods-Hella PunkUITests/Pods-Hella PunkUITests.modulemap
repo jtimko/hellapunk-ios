@@ -1,0 +1,6 @@
+framework module Pods_Hella_PunkUITests {
+  umbrella header "Pods-Hella PunkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
